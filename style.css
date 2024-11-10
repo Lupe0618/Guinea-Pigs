@@ -1,0 +1,115 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Style */
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #f7f7f7;
+    line-height: 1.6;
+}
+
+/* Header Section */
+header {
+    background-color: #ffcc99;
+    color: #333;
+    text-align: center;
+    padding: 60px 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+nav a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 15px;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #555;
+}
+
+/* Section Style */
+section {
+    background-color: #fff;
+    padding: 30px;
+    margin: 20px auto;
+    max-width: 800px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    font-size: 1.8em;
+    color: #ff884d;
+    margin-bottom: 15px;
+}
+
+section p {
+    margin-bottom: 15px;
+    line-height: 1.8;
+}
+
+/* Footer Style */
+footer {
+    background-color: #ffcc99;
+    color: #333;
+    text-align: center;
+    padding: 20px;
+    font-size: 0.9em;
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
+}
+
+footer a {
+    color: #333;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #555;
+}
+
+/* Additional Styles for Links & Images */
+a {
+    color: #ff884d;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #ff704d;
+}
+
+img {
+    max-width: 100%;
+    border-radius: 8px;
+    margin-top: 15px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2em;
+    }
+    header p {
+        font-size: 1em;
+    }
+    section {
+        padding: 20px;
+    }
+}
